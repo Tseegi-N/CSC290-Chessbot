@@ -7,7 +7,7 @@ def bot_move(board):
     legal_moves = list(board.legal_moves)
 
     #check for capture 
-    if 
+    
 
 def play_chess():
     # Print messages 
@@ -51,3 +51,4 @@ def play_chess():
                 print("Invalid move. Please try again.")
 
         # Game over
+

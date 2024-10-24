@@ -31,9 +31,9 @@ def bot_move(board):
             capture_moves.append(moves)
     
     if capture_moves != []:
-        next_move = capture_moves[random.randint(0, len(capture_moves))]
+        next_move = capture_moves[random.randint(0, len(capture_moves)-1)]
     else:
-        next_move = legal_moves[random.randint(0, len(legal_moves))]
+        next_move = legal_moves[random.randint(0, len(legal_moves)-1)]
     
     return next_move
 def bot_move_test(moves):
